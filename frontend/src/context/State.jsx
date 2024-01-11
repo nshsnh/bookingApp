@@ -54,7 +54,7 @@ const BsState = (props) => {
 
     // this function help  to make a get request to the server to get the last booking details
     const handleGetLastBooking = async() => {
-        const response = await fetch(`http://localhost:8080/api/booking`, {
+        const response = await fetch(`https://bookmyshowapp-backend.onrender.com/api/booking`, {
             method: "GET",
         });
 
